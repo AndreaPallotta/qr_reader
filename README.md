@@ -44,7 +44,7 @@ pip install opencv-python-headless pyzbar validators
 To scan QR codes and barcodes from an image, use the following command:
 
 ```bash
-python qr_scanner.py -i <path_to_image> [-u]
+python reader.py -i <path_to_image> [-u]
 ```
 
 ### Parameters
@@ -58,13 +58,13 @@ python qr_scanner.py -i <path_to_image> [-u]
 To scan a QR code in an image:
 
 ```bash
-python qr_scanner.py -i /path/to/your/image.png
+python reader.py -i /path/to/your/image.png
 ```
 
 To allow opening `http` URLs in the browser (unsafe option):
 
 ```bash
-python qr_scanner.py -i /path/to/your/image.png -u
+python reader.py -i /path/to/your/image.png -u
 ```
 
 ### Notes
